@@ -1,16 +1,17 @@
 {
   "name": "fileoma",
   "version": "1.0.0",
-  "description": "",
   "main": "indiana.js",
   "scripts": {
     "start": ""
   },
-  "author": " San Wu",
+  "author": "San Wu",
   "license": "ISC",
   "dependencies": {
     "@react-three/fiber": "^8.13.6",
     "@types/three": "^0.155.0",
     "three": "^0.155.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
