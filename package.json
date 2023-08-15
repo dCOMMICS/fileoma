@@ -9,6 +9,8 @@
   "author": " San Wu",
   "license": "ISC",
   "dependencies": {
+    "@react-three/fiber": "^8.13.6",
+    "@types/three": "^0.155.0",
     "three": "^0.155.0"
   }
 }
