@@ -74,3 +74,5 @@ switch(new Date().getDay()){
 }
 
 // day 2 //
+
+// work on the cheatsheet //
