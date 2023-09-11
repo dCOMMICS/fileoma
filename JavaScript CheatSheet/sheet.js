@@ -54,7 +54,7 @@ for (var i = 0; i <10; i++){
 // if - else //
 
 if ((age>=14)&&(age<19)) {
-    status = "Eligible";
+    status = "Eligible";  // name status depreciated //
 } else {
     status = "not eligible.";
 }
