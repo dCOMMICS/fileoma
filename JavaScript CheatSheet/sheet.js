@@ -50,3 +50,25 @@ for (var i = 0; i <10; i++){
     if (i==5){continue;}    // skips the rest of the cycle
     document.write(i+ ","); //skips 5
 }
+
+// if - else //
+
+if ((age>=14)&&(age<19)) {
+    status = "Eligible";
+} else {
+    status = "not eligible.";
+}
+
+
+// switch statement //
+switch(new Date().getDay()){
+    case 6:
+        text = "Saturday";
+        break;
+        case 0:
+            text = "Sunday";
+            break;
+            default:
+                text="Whatever";
+
+}
