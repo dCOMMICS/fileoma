@@ -16,4 +16,10 @@ for (var h = 0; h < 10; h++){
 }
 
 
-// while loop 
+// while loop //
+
+var i = 1;          // initialize
+while (i < 100){        // enter the cycle if statement
+    i*=2;               // increment to avoid infinite loop 
+    document.write(i+ ","); // output
+}
