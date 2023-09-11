@@ -72,3 +72,5 @@ switch(new Date().getDay()){
                 text="Whatever";
 
 }
+
+// day 2 //
