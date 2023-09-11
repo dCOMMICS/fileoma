@@ -23,3 +23,30 @@ while (i < 100){        // enter the cycle if statement
     i*=2;               // increment to avoid infinite loop 
     document.write(i+ ","); // output
 }
+
+// do while loop //
+
+var i = 1;
+do {
+    i *=2;
+    document.write(i+",");
+
+} while (i<100)
+
+
+// break //
+
+for (var i =0; i< 10; i++){
+    if (i==5){
+        break;      //stops and exits the cycle 
+    }               // last output is 4
+
+    document.write(i +",");
+}
+
+// continue //
+
+for (var i = 0; i <10; i++){
+    if (i==5){continue;}    // skips the rest of the cycle
+    document.write(i+ ","); //skips 5
+}
